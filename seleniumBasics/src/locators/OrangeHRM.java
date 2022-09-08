@@ -40,7 +40,7 @@ public class OrangeHRM
 		WebElement loginButton = driver.findElement(By.cssSelector("input[id='btnLogin']"));
 		loginButton.click();
 		
-		 driver.close();
+		driver.close();
 	}
 }
 
