@@ -18,7 +18,7 @@ public class OpenYatra
 		
 		driver.get("https://www.yatra.com/");
 		
-	
+	        driver.close();
 	}
 
 }
