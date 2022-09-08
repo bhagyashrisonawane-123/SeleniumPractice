@@ -39,7 +39,7 @@ public class VtigerLoginOut
 		WebElement logoutButton = driver.findElement(By.linkText("Sign Out"));
 		logoutButton.click();
 		
-		// driver.close();
+	         driver.close();
 	}
 
 
